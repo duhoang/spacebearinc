@@ -51,6 +51,11 @@ a, a:visited {
   text-decoration: none;
   outline: none; }
 
+p a {
+  opacity: .5; }
+  p a:hover, p a.active {
+    opacity: 1; }
+
 .nav {
   padding: 16px 8px;
   flex-grow: 1;

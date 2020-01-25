@@ -104,6 +104,13 @@ a, a:visited {
   outline: none;
 }
 
+p a {
+  opacity: .5;
+  &:hover, &.active {
+    opacity: 1;
+  }
+}
+
 .nav {
   padding: 16px 8px;
   flex-grow: 1;
